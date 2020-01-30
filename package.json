@@ -8,9 +8,9 @@
     "start": "node server.js",
     "client": "cd mern_first && npm start",
     "dev": "concurrently -n 'server,client' -c 'red,green' \"nodemon server.js\" \"npm run client\"",
-    "build":"cd mern_first && npm run build",
-    "install-client":"cd mern_first && npm install",
-    "heroku-postbuild":"npm run install-client && npm run build"
+    "build": "cd mern_first && npm run build",
+    "install-client": "cd mern_first && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "repository": {
     "type": "git",
